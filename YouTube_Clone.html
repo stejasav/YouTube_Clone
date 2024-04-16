@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <link rel="icon" type="images/png" href="images/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="YouTube_Clone.css">
+    <title>YouTube Clone</title>
+    <meta charset="UTF-8" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=6, minimum-scale=1">
+  </head>
+
+  <body>
+
+    <header class="header">
+        <div class="left-section">
+            <img src="images/hamburger-menu.svg" alt="menu" class="hamburger-menu">
+            <img src="images/youtube-logo.svg" alt="youtube-logo" class="youtube-logo">
+        </div>
+        <div class="middle-section">
+            <input type="text" placeholder="Search" class="search-bar">
+            <button class="search-button">
+                <img src="images/search.svg" class="search-icon" > 
+                <div class="tooltip">Search</div>
+            </button>
+            <button class="voice-search-button">
+                <img src="images/voice-search-icon.svg" class="voice-search-icon">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+        <div class="right-section">
+            <div class="upload-icon-container">
+                <img src="images/upload.svg" class="upload-icon">
+                <div class="tooltip">Create</div>
+            </div>
+            <!-- <div class="youtube-apps-icon-container">
+                <img src="images/youtube-apps.svg" class="youtube-apps-icon">
+                <div class="tooltip">Create</div>
+            </div> -->
+            <div class="notification-icon-container">
+                <img src="images/notifications.svg" class="notification-icon">
+                <div class="notification-count">3</div>
+                <div class="tooltip">Notifications</div>
+            </div>
+            <img src="images/unnamed.jpg" class="user-picture">
+        </div>
+    </header>
+
+    <nav class="sidebar">
+        <div class="sidebar-link">
+            <img src="images/home.svg" > 
+            <div>Home</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="images/shorts.png" >
+            <div>Shorts</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="images/subscriptions.svg" >
+            <div>subscriptions</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="images/library.svg" >
+            <div>You</div>
+        </div>
+    </nav>
+
+
+    <main>
+        <section class="video-grid">
+            <div class="video-preview">   
+                <div class="thumbnail-row">
+                    <img src="images/ Vailskibum-video.jpeg" alt="Anime Image" class="thumbnail">
+                    <div class="video-time">
+                        4:17
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture" >
+                            <img src="images/ Vailskibum-logo.jpeg" alt="logo" class="profile-picture">    
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Good Anime to Watch for Non-Anime Fans
+                        </p>
+                        <p class="video-author">
+                            Vailskibum
+                        </p>
+                        <p class="video-stats"> 
+                            45K views &#183; 6 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="video-preview">   
+                <div class="thumbnail-row">
+                    <img src="images/maxresdefault.jpg" alt="Anime Image" class="thumbnail">
+                    <div class="video-time">
+                        3:38
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture" >
+                            <img src="images/animecollective-logo.jpg" alt="logo" class="profile-picture">    
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Killing Stalking Deluxe Edition Review with Inside Look
+                        </p>
+                        <p class="video-author">
+                            Anime Collective
+                        </p>
+                        <p class="video-stats"> 
+                            10K views &#183; 1 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="video-preview">   
+                <div class="thumbnail-row">
+                    <img src="images/carry.jpeg" alt="Anime Image" class="thumbnail">
+                    <div class="video-time">
+                        14:32
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture" >
+                            <img src="images/carry-logo.jpeg" alt="logo" class="profile-picture">    
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            DAILY VLOGGERS PARODY 😘 | CARRYMINATI
+                        </p>
+                        <p class="video-author">
+                            CarryMinati 
+                        </p>
+                        <p class="video-stats"> 
+                            68M views &#183; 7 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="video-preview">   
+                <div class="thumbnail-row">
+                    <img src="images/sangtar.jpeg" alt="Anime Image" class="thumbnail">
+                    <div class="video-time">
+                        7:35
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture" >
+                            <img src="images/sangtar-logo.jpeg" alt="logo" class="profile-picture">    
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Every Punjabi Singer These Days - YouTube
+                        </p>
+                        <p class="video-author">
+                            Sangtar Singh
+                        </p>
+                        <p class="video-stats"> 
+                            2.4M views &#183; 2 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="video-preview">   
+                <div class="thumbnail-row">
+                    <img src="images/MrBeast.jpeg" alt="Anime Image" class="thumbnail">
+                    <div class="video-time">
+                        12:03
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture" >
+                            <img src="images/MrBeast-logo.jpeg" alt="logo" class="profile-picture">    
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            I Hunted 100 People!
+                        </p>
+                        <p class="video-author">
+                            MrBeast 
+                        </p>
+                        <p class="video-stats"> 
+                            152M views &#183; 1 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="video-preview">   
+                <div class="thumbnail-row">
+                    <img src="images/Harsh Beniwal.jpeg" alt="Anime Image" class="thumbnail">
+                    <div class="video-time">
+                        42:01
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture" >
+                            <img src="images/Harsh Beniwal-logo.jpeg" alt="logo" class="profile-picture">    
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            A Day With a Cringe Youtuber | Harsh Beniwal
+                        </p>
+                        <p class="video-author">
+                            Harsh Beniwal
+                        </p>
+                        <p class="video-stats"> 
+                            21.7M views &#183; 2 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">   
+                <div class="thumbnail-row">
+                    <img src="images/carry-stream.jpeg" alt="Anime Image" class="thumbnail">
+                    <div class="video-time">
+                        5:54:08
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture" >
+                            <img src="images/carry-logo.jpeg" alt="logo" class="profile-picture">    
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            CHARITY STREAM: HELP ASSAM & BIHAR
+                        </p>
+                        <p class="video-author">
+                            CarryMinati
+                        </p>
+                        <p class="video-stats"> 
+                            6.68M views &#183; 3 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">   
+                <div class="thumbnail-row">
+                    <img src="images/ashish-video.jpeg" alt="Anime Image" class="thumbnail">
+                    <div class="video-time">
+                        22:28
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture" >
+                            <img src="images/ashish-logo.jpeg" alt="logo" class="profile-picture">    
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Holi Returns | Ashish chanchlani
+                        </p>
+                        <p class="video-author">
+                            Ashish chanchlani
+                        </p>
+                        <p class="video-stats"> 
+                            37K views &#183; 11 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">   
+                <div class="thumbnail-row">
+                    <img src="images/The RawKnee Games  video.jpeg" alt="Anime Image" class="thumbnail">
+                    <div class="video-time">
+                        28:36
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture" >
+                            <img src="images/The RawKnee Games  logo.jpeg" alt="logo" class="profile-picture">    
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            I DID A MINI IPL TOURNAMENT
+                        </p>
+                        <p class="video-author">
+                            The RawKnee Games 
+                        </p>
+                        <p class="video-stats"> 
+                            4.6M views &#183; 9 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">   
+                <div class="thumbnail-row">
+                    <img src="images/Tanmay Bhat  video.jpeg" alt="Anime Image" class="thumbnail">
+                    <div class="video-time">
+                        16:14
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture" >
+                            <img src="images/Tanmay Bhat  logo.jpeg" alt="logo" class="profile-picture">    
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            BEST WAY TO TOP YOUR EXAMS
+                        </p>
+                        <p class="video-author">
+                            Tanmay Bhat
+                        </p>
+                        <p class="video-stats"> 
+                            4.1M views &#183; 1 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">   
+                <div class="thumbnail-row">
+                    <img src="images/IGN-video.jpeg" alt="Anime Image" class="thumbnail">
+                    <div class="video-time">
+                        9:00
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture" >
+                            <img src="images/IGN-logo.jpeg" alt="logo" class="profile-picture">    
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Top 10 Best Anime Series of All Time (2022 Update)
+                        </p>
+                        <p class="video-author">
+                            IGN
+                        </p>
+                        <p class="video-stats"> 
+                            480K views &#183; 1 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">   
+                <div class="thumbnail-row">
+                    <img src="images/sony-video.jpeg" alt="Anime Image" class="thumbnail">
+                    <div class="video-time">
+                        1:05:13
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture" >
+                            <img src="images/sony-logo.jpeg" alt="logo" class="profile-picture">    
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Kapil Has A Offer For Rohit Shetty | The Kapil Sharma Show | SET India Rewind 2020
+                        </p>
+                        <p class="video-author">
+                            SET India
+                        </p>
+                        <p class="video-stats"> 
+                            19M views &#183; 3 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">   
+                <div class="thumbnail-row">
+                    <img src="images/Be YouNick -video .jpeg" alt="Anime Image" class="thumbnail">
+                    <div class="video-time">
+                        10:45
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture" >
+                            <img src="images/Be YouNick -logo.png" alt="logo" class="profile-picture">    
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            BYN: MEN will be MEN
+                        </p>
+                        <p class="video-author">
+                            Be YouNick
+                        </p>
+                        <p class="video-stats"> 
+                            1.42M views &#183; 1 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">   
+                <div class="thumbnail-row">
+                    <img src="images/harsh_bhaichara.jpeg" alt="Anime Image" class="thumbnail">
+                    <div class="video-time">
+                        27:12
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture" >
+                            <img src="images/Harsh Beniwal-logo.jpeg" alt="logo" class="profile-picture">    
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Bhaichara on Top | Elvish vs Maxtern Harsh Beniwal
+                        </p>
+                        <p class="video-author">
+                            Harsh Beniwal
+                        </p>
+                        <p class="video-stats"> 
+                            10M views &#183; 4 days ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">   
+                <div class="thumbnail-row">
+                    <img src="images/WatchMojo.com-video.jpeg" alt="Anime Image" class="thumbnail">
+                    <div class="video-time">
+                        11:07
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture" >
+                            <img src="images/WatchMojo.com-logo.jpeg" alt="logo" class="profile-picture">    
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Top 10 Anime EVERYONE is Talking About
+                        </p>
+                        <p class="video-author">
+                            WatchMojo.com
+                        </p>
+                        <p class="video-stats"> 
+                            290K views &#183; 1 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">   
+                <div class="thumbnail-row">
+                    <img src="images/ashish.jpeg" alt="Anime Image" class="thumbnail">
+                    <div class="video-time">
+                        10:45
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture" >
+                            <img src="images/ashish-logo.jpeg" alt="logo" class="profile-picture">    
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            The Mummy Returns | Ashish Chanchlani
+                        </p>
+                        <p class="video-author">
+                            Ashish Chanchlani
+                        </p>
+                        <p class="video-stats"> 
+                            70M views &#183; 2 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">   
+                <div class="thumbnail-row">
+                    <img src="images/MrBeast-video.jpeg" alt="Anime Image" class="thumbnail">
+                    <div class="video-time">
+                        10:24
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture" >
+                            <img src="images/MrBeast-logo.jpeg" alt="logo" class="profile-picture">    
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Hydraulic Press Vs Lamborghini
+                        </p>
+                        <p class="video-author">
+                            MrBeast
+                        </p>
+                        <p class="video-stats"> 
+                            218M views &#183; 1 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">   
+                <div class="thumbnail-row">
+                    <img src="images/saragrace_tiktok_tech.jpeg" alt="Anime Image" class="thumbnail">
+                    <div class="video-time">
+                        16:23
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture" >
+                            <img src="images/saragrace-logo.jpeg" alt="logo" class="profile-picture">    
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            I Bought VIRAL TikTok Tech Gadgets
+                        </p>
+                        <p class="video-author">
+                            SarahGrace
+                        </p>
+                        <p class="video-stats"> 
+                            183K views &#183; 2 days ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">   
+                <div class="thumbnail-row">
+                    <img src="images/animecollective_17 _Manga_2024.jpeg" alt="Anime Image" class="thumbnail">
+                    <div class="video-time">
+                        22:35
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture" >
+                            <img src="images/animecollective-logo.jpg" alt="logo" class="profile-picture">    
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            17 Manga You NEED to Read in 2024
+                        </p>
+                        <p class="video-author">
+                            Anime Collective
+                        </p>
+                        <p class="video-stats"> 
+                            60K views &#183; 1 month ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">   
+                <div class="thumbnail-row">
+                    <img src="images/setindia-sharktank.jpeg" alt="Anime Image" class="thumbnail">
+                    <div class="video-time">
+                        16:37
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture" >
+                            <img src="images/sony-logo.jpeg" alt="logo" class="profile-picture">    
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Shark Tank India 3| Ritesh कैसे करेंगे 'Rodbez' की Supply And Demand के Gap को Bridge|Ritesh Invests
+                        </p>
+                        <p class="video-author">
+                            SET India
+                        </p>
+                        <p class="video-stats"> 
+                            19K views &#183; 2 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">   
+                <div class="thumbnail-row">
+                    <img src="images/Mrwhosetheboss-video.jpeg" alt="Anime Image" class="thumbnail">
+                    <div class="video-time">
+                        23:01
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture" >
+                            <img src="images/Mrwhosetheboss-logo.jpeg" alt="logo" class="profile-picture">    
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            I tested the most VIRAL TikTok gadgets!
+                        </p>
+                        <p class="video-author">
+                            Mrwhosetheboss
+                        </p>
+                        <p class="video-stats"> 
+                            12M views &#183; 10 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">   
+                <div class="thumbnail-row">
+                    <img src="images/carry_street-food.jpeg" alt="Anime Image" class="thumbnail">
+                    <div class="video-time">
+                        8:19
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture" >
+                            <img src="images/carry-logo.jpeg" alt="logo" class="profile-picture">    
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            RARE INDIAN STREET FOOD....YUMMYY🤤| CARRYMINATI
+                        </p>
+                        <p class="video-author">
+                            CarryMinati
+                        </p>
+                        <p class="video-stats"> 
+                            34M views &#183; 3 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">   
+                <div class="thumbnail-row">
+                    <img src="images/mrbeast-7-day-island.jpeg" alt="Anime Image" class="thumbnail">
+                    <div class="video-time">
+                        22:26
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture" >
+                            <img src="images/MrBeast-logo.jpeg" alt="logo" class="profile-picture">    
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            7 Days Stranded On An Island
+                        </p>
+                        <p class="video-author">
+                            MrBeast
+                        </p>
+                        <p class="video-stats"> 
+                            118M views &#183; 2 weeks ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">   
+                <div class="thumbnail-row">
+                    <img src="images/harsh_daru_4.jpeg" alt="Anime Image" class="thumbnail">
+                    <div class="video-time">
+                        1:16:05
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture" >
+                            <img src="images/Harsh Beniwal-logo.jpeg" alt="logo" class="profile-picture">    
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Daaru With Dad 4 | Harsh Beniwal
+                        </p>
+                        <p class="video-author">
+                            Harsh Beniwal
+                        </p>
+                        <p class="video-stats"> 
+                            18M views &#183; 1 month ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+  </body>
+</html>
